@@ -6,7 +6,7 @@ import os
 import matplotlib.backends.backend_pdf
 
 pdf = matplotlib.backends.backend_pdf.PdfPages("plots.pdf")
-
+#loop where we plot our graphics
 for filename in os.listdir('C:/Users/Ainhoa/Desktop/Python/data'):
 	if filename.startswith("inflammation"):
 		
